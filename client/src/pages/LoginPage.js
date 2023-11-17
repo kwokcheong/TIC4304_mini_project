@@ -17,7 +17,7 @@ function LoginPage() {
   const navigate = useNavigate();
   const mutation = useMutation(loginUser, {
     onSuccess: () => {
-      navigate("/users");
+      navigate("/protected/users");
     },
   });
   const [formValues, setFormValues] = useState(initialValues);

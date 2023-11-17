@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "password",
+    "username": "admin",
+    "password": "password123",
     "database": "mini_project",
-    "host": "localhost",
+    "host": "mysqldb",
     "dialect": "mysql"
   },
   "test": {
