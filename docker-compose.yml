@@ -51,6 +51,8 @@ services:
     container_name: reactappcontainer
     build: 
       context: ./client
+    environment:
+      REACT_APP_API_BASE_URL: http://localhost:3001
     ports:
       - "3000:3000"
 
